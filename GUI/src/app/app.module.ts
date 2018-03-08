@@ -7,6 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { CustomerMyOrdersComponent } from './customer-my-orders/customer-my-orders.component';
+import { LoginComponent } from './login/login.component';
 
 const appRoutes: Routes = [
   {
@@ -24,7 +25,8 @@ const appRoutes: Routes = [
     NavbarComponent,
     HomeComponent,
     FooterComponent,
-    CustomerMyOrdersComponent
+    CustomerMyOrdersComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
